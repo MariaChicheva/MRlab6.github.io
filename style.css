@@ -1,0 +1,29 @@
+.header {
+position: absolute;
+width: 1296px;
+height: 140px;
+top: 20px;
+left: 312px;
+background-color:#4dff00;
+}
+
+.header__title {
+width: 217px;
+height: 40px;
+color:#EC1B2E;
+}
+
+.header__frame1{
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 45px;
+
+position: absolute;
+left: 26.85%;
+right: 21.14%;
+top: 5.71%;
+bottom: 77.14%;
+
+}
