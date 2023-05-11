@@ -3,10 +3,7 @@ width: 1296px;
 max-width: 1296px;
 height: 140px;
 margin: 20px auto;
-
-/*background-color:#4dff00;*/
 }
-
 .header__top{
     display: flex;
     justify-content: space-between;
@@ -17,6 +14,7 @@ height: 40px;
 color:#EC1B2E;
 font-family: 'Circe';
 }
+
 .header__frame1{
 display: flex;
 flex-direction: row;
@@ -24,10 +22,59 @@ align-items: flex-start;
 justify-content: center;
 padding: 0px;
 gap: 45px;
+}
+.header__group1{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0px;
+    gap: 20px;
+}
+.header__group1_picture{
+    background-image: url("Vector.png");
+    width: 14px;
+    height: 18px;
+    display: flex;
+    
+}
 
+.header__group2{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0px;
+    gap: 20px;
+}
+.header__group2_picture{
+    background-image: url("carbon_phone-filled.png");
+    width: 20px;
+    height: 20px;
+    position: relative;
+}
 
-/*position: absolute;*/
+.header__group3{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0px;
+    gap: 20px;
+}
+.header__group3_picture{
+    background-image: url("Vector_1.png");
+    width: 18px;
+    height: 15px;
+    position: relative;
+}
 
+.button{
+    border: none;
+    background-color: #EC1B2E;
+    color:#ffffff;
+    padding: 10px 20px;
+    gap:10px;
 }
 
 
@@ -56,6 +103,17 @@ gap: 45px;
     margin: 0px 5px;
     padding: 0px 5px;
     gap: 20px;
+}
+
+.picture_city{/*большая картинка с городом???*/
+    display: flex;
+    background-image: url("Rectangle 31.png");
+    position: absolute;
+    width: 99.999%;
+    height: 700px;
+    left: 0px;
+    top: 180px;
+    background-size: cover;
 }
 
 
